@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="animationTest" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,90 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundimage.png" translatesAutoresizingMaskIntoConstraints="NO" id="d3b-0k-Wa9">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="d3b-0k-Wa9" secondAttribute="height" multiplier="1:1" id="23q-Ly-yYZ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="7chan.png" translatesAutoresizingMaskIntoConstraints="NO" id="iyw-Bk-HWf">
+                                <rect key="frame" x="225" y="211" width="150" height="179"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="179" id="HfY-Gz-XZb"/>
+                                    <constraint firstAttribute="width" constant="150" id="IoN-60-Ehf"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Elu-c5-eOP">
+                                <rect key="frame" x="145" y="60" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="MPd-xs-x7e"/>
+                                    <constraint firstAttribute="height" constant="70" id="d6c-AR-ySd"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="red.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mJa-Nz-0qS">
+                                <rect key="frame" x="225" y="60" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="QK4-AA-7tt"/>
+                                    <constraint firstAttribute="width" constant="70" id="dnD-lg-aXy"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="blue.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bEz-xA-vxh">
+                                <rect key="frame" x="305" y="60" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="cJZ-5R-KR4"/>
+                                    <constraint firstAttribute="height" constant="70" id="nQM-cD-1Ol"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="green.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dVh-F6-5SK">
+                                <rect key="frame" x="385" y="60" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="6aD-5v-y0g"/>
+                                    <constraint firstAttribute="height" constant="70" id="o6Y-mg-eUD"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="yellow.png"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bEz-xA-vxh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="40" id="75f-Lg-0sS"/>
+                            <constraint firstItem="mJa-Nz-0qS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="MD2-QV-Goq"/>
+                            <constraint firstItem="dVh-F6-5SK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="Pf3-O7-d7L"/>
+                            <constraint firstItem="iyw-Bk-HWf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="T18-3Y-lYz"/>
+                            <constraint firstItem="d3b-0k-Wa9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="UIb-x8-ZwD"/>
+                            <constraint firstItem="dVh-F6-5SK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="120" id="VfL-0H-zGi"/>
+                            <constraint firstItem="iyw-Bk-HWf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZaL-fh-SRG"/>
+                            <constraint firstItem="Elu-c5-eOP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-120" id="adp-Vo-1di"/>
+                            <constraint firstAttribute="trailing" secondItem="d3b-0k-Wa9" secondAttribute="trailing" id="fVw-g2-CNt"/>
+                            <constraint firstItem="mJa-Nz-0qS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-40" id="jF6-Da-kFH"/>
+                            <constraint firstItem="Elu-c5-eOP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="nMr-2T-wQm"/>
+                            <constraint firstItem="d3b-0k-Wa9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tF6-DT-Up9"/>
+                            <constraint firstItem="bEz-xA-vxh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="uRS-eL-Bnh"/>
+                            <constraint firstItem="d3b-0k-Wa9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zTa-EQ-ZWN"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="d3b-0k-Wa9" id="t30-nO-zkM"/>
+                        <outlet property="blueButton" destination="mJa-Nz-0qS" id="Kgb-LF-ucB"/>
+                        <outlet property="greenButton" destination="bEz-xA-vxh" id="VKf-6N-tSP"/>
+                        <outlet property="redButton" destination="Elu-c5-eOP" id="u4F-4p-dtn"/>
+                        <outlet property="yellowButton" destination="dVh-F6-5SK" id="avw-Fl-st1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="577" y="409"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="7chan.png" width="254" height="303"/>
+        <image name="backgroundimage.png" width="694" height="1237"/>
+        <image name="blue.png" width="249" height="249"/>
+        <image name="green.png" width="249" height="249"/>
+        <image name="red.png" width="249" height="249"/>
+        <image name="yellow.png" width="249" height="249"/>
+    </resources>
 </document>
