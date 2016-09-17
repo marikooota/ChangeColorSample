@@ -12,8 +12,6 @@
 		8C7053741D8CFF9A00E567CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7053721D8CFF9A00E567CC /* Main.storyboard */; };
 		8C7053761D8CFF9B00E567CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C7053751D8CFF9B00E567CC /* Assets.xcassets */; };
 		8C7053791D8CFF9B00E567CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7053771D8CFF9B00E567CC /* LaunchScreen.storyboard */; };
-		8C7053821D8D043500E567CC /* launchimage1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7053801D8D043500E567CC /* launchimage1.png */; };
-		8C7053831D8D043500E567CC /* launchimage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7053811D8D043500E567CC /* launchimage2.png */; };
 		8C70538A1D8D1C1C00E567CC /* backgroundimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7053881D8D1C1C00E567CC /* backgroundimage.png */; };
 		8C70538B1D8D1C1C00E567CC /* 7chan.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7053891D8D1C1C00E567CC /* 7chan.png */; };
 		8C7053901D8D224100E567CC /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C70538C1D8D224100E567CC /* yellow.png */; };
@@ -23,15 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8C70536B1D8CFF9A00E567CC /* animationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C70536B1D8CFF9A00E567CC /* ColorChangeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorChangeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C70536E1D8CFF9A00E567CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C7053701D8CFF9A00E567CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C7053731D8CFF9A00E567CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C7053751D8CFF9B00E567CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C7053781D8CFF9B00E567CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C70537A1D8CFF9B00E567CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8C7053801D8D043500E567CC /* launchimage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchimage1.png; sourceTree = "<group>"; };
-		8C7053811D8D043500E567CC /* launchimage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchimage2.png; sourceTree = "<group>"; };
 		8C7053881D8D1C1C00E567CC /* backgroundimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundimage.png; sourceTree = "<group>"; };
 		8C7053891D8D1C1C00E567CC /* 7chan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7chan.png; sourceTree = "<group>"; };
 		8C70538C1D8D224100E567CC /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
@@ -54,7 +50,7 @@
 		8C7053621D8CFF9A00E567CC = {
 			isa = PBXGroup;
 			children = (
-				8C70536D1D8CFF9A00E567CC /* animationTest */,
+				8C70536D1D8CFF9A00E567CC /* ColorChangeSample */,
 				8C70536C1D8CFF9A00E567CC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,12 +58,12 @@
 		8C70536C1D8CFF9A00E567CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8C70536B1D8CFF9A00E567CC /* animationTest.app */,
+				8C70536B1D8CFF9A00E567CC /* ColorChangeSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8C70536D1D8CFF9A00E567CC /* animationTest */ = {
+		8C70536D1D8CFF9A00E567CC /* ColorChangeSample */ = {
 			isa = PBXGroup;
 			children = (
 				8C70536E1D8CFF9A00E567CC /* AppDelegate.swift */,
@@ -75,8 +71,6 @@
 				8C7053721D8CFF9A00E567CC /* Main.storyboard */,
 				8C7053751D8CFF9B00E567CC /* Assets.xcassets */,
 				8C7053771D8CFF9B00E567CC /* LaunchScreen.storyboard */,
-				8C7053801D8D043500E567CC /* launchimage1.png */,
-				8C7053811D8D043500E567CC /* launchimage2.png */,
 				8C7053881D8D1C1C00E567CC /* backgroundimage.png */,
 				8C7053891D8D1C1C00E567CC /* 7chan.png */,
 				8C70538C1D8D224100E567CC /* yellow.png */,
@@ -85,15 +79,16 @@
 				8C70538F1D8D224100E567CC /* blue.png */,
 				8C70537A1D8CFF9B00E567CC /* Info.plist */,
 			);
+			name = ColorChangeSample;
 			path = animationTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8C70536A1D8CFF9A00E567CC /* animationTest */ = {
+		8C70536A1D8CFF9A00E567CC /* ColorChangeSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C70537D1D8CFF9B00E567CC /* Build configuration list for PBXNativeTarget "animationTest" */;
+			buildConfigurationList = 8C70537D1D8CFF9B00E567CC /* Build configuration list for PBXNativeTarget "ColorChangeSample" */;
 			buildPhases = (
 				8C7053671D8CFF9A00E567CC /* Sources */,
 				8C7053681D8CFF9A00E567CC /* Frameworks */,
@@ -103,9 +98,9 @@
 			);
 			dependencies = (
 			);
-			name = animationTest;
+			name = ColorChangeSample;
 			productName = animationTest;
-			productReference = 8C70536B1D8CFF9A00E567CC /* animationTest.app */;
+			productReference = 8C70536B1D8CFF9A00E567CC /* ColorChangeSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -123,7 +118,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8C7053661D8CFF9A00E567CC /* Build configuration list for PBXProject "animationTest" */;
+			buildConfigurationList = 8C7053661D8CFF9A00E567CC /* Build configuration list for PBXProject "ColorChangeSample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -136,7 +131,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8C70536A1D8CFF9A00E567CC /* animationTest */,
+				8C70536A1D8CFF9A00E567CC /* ColorChangeSample */,
 			);
 		};
 /* End PBXProject section */
@@ -151,10 +146,8 @@
 				8C7053761D8CFF9B00E567CC /* Assets.xcassets in Resources */,
 				8C7053921D8D224100E567CC /* red.png in Resources */,
 				8C7053911D8D224100E567CC /* green.png in Resources */,
-				8C7053821D8D043500E567CC /* launchimage1.png in Resources */,
 				8C70538B1D8D1C1C00E567CC /* 7chan.png in Resources */,
 				8C7053931D8D224100E567CC /* blue.png in Resources */,
-				8C7053831D8D043500E567CC /* launchimage2.png in Resources */,
 				8C7053741D8CFF9A00E567CC /* Main.storyboard in Resources */,
 				8C70538A1D8D1C1C00E567CC /* backgroundimage.png in Resources */,
 			);
@@ -284,7 +277,7 @@
 				INFOPLIST_FILE = animationTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kronos.animationTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ColorChangeSample;
 			};
 			name = Debug;
 		};
@@ -295,14 +288,14 @@
 				INFOPLIST_FILE = animationTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kronos.animationTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ColorChangeSample;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8C7053661D8CFF9A00E567CC /* Build configuration list for PBXProject "animationTest" */ = {
+		8C7053661D8CFF9A00E567CC /* Build configuration list for PBXProject "ColorChangeSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C70537B1D8CFF9B00E567CC /* Debug */,
@@ -311,7 +304,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C70537D1D8CFF9B00E567CC /* Build configuration list for PBXNativeTarget "animationTest" */ = {
+		8C70537D1D8CFF9B00E567CC /* Build configuration list for PBXNativeTarget "ColorChangeSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C70537E1D8CFF9B00E567CC /* Debug */,
